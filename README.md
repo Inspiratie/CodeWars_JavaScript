@@ -1,2 +1,2 @@
 # CodeWars_JavaScript
-Just some simple 'codewars.com' challenges 
+Just some simple 'codewars.com' challanges 
