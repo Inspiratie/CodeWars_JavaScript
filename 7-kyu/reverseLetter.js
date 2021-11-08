@@ -4,4 +4,4 @@ function reverseLetter(str) {
     return str.replace(/[^a-zA-Z]/g, '').split('').reverse().join('');
 }
 
-console.log(reverseLetter('mu sk4?;!'))
+console.log(reverseLetter('reverse me!'));
