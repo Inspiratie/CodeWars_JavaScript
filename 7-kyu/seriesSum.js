@@ -9,4 +9,4 @@ function SeriesSum(n)
     return Array.from({length: n}, (_, i) => 1/(3*i+1)).reduce((total, el) => total + el).toFixed(2);
 }
 
-console.log(SeriesSum(3));
+console.log(SeriesSum(0));
