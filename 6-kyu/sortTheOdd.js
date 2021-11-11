@@ -5,7 +5,7 @@
 */
 function sortArray(array) {
   let odd = array.filter((el) => el % 2 !== 0).sort((prev, next) => prev - next);
-  return array.map((v) => (v % 2 !== 0 ? odd.shift() : v));
+  return array.map((el) => (el % 2 !== 0 ? odd.shift() : el));
 }
 
 console.log(sortArray([5, 3, 2, 8, 1, 4]));
